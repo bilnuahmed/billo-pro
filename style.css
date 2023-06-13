@@ -30,12 +30,19 @@ a {
   color: #20212c;
 }
 
-.icon-text2 a {
-  color: #fff;
-}
 .nav-link:hover {
   color: rgb(18, 156, 211);
 }
+
+.nav-link.active {
+  color: rgb(18, 156, 211) !important;
+}
+
+
+.icon-text2 a {
+  color: #fff;
+}
+
 
 .bg-cover {
   background-size: cover;
